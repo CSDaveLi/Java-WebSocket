@@ -391,6 +391,7 @@ public abstract class WebSocketClient extends AbstractWebSocket implements Runna
 			engine.close( CloseFrame.NORMAL );
 		}
 	}
+
 	/**
 	 * Same as <code>close</code> but blocks until the websocket closed or failed to do so.<br>
 	 * @throws InterruptedException Thrown when the threads get interrupted
